@@ -2,14 +2,14 @@
    ⚠️ DEV RULE: whenever you change ANY file, bump the version below
    (loop-v1 → loop-v2). Otherwise users keep seeing the old cached copy. */
 
-const CACHE = 'loop-v1';
+const CACHE = 'loop-v2';
 
 const ASSETS = [
   './', './index.html', './stats.html',
   './css/base.css', './css/app.css', './css/site.css', './css/stats.css', './css/theme.css',
   './js/storage.js', './js/habits.js', './js/fx.js', './js/timer.js', './js/extras.js',
   './js/app.js', './js/stats.js', './js/report.js', './js/settings.js', './js/pwa.js',
-  './manifest.json', './icons/icon.svg'
+  './manifest.json', './icons/icon.svg', './css/mobile.css',
 ];
 
 self.addEventListener('install', e => {
